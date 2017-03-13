@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="LPSViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXb-1x-fkn">
+                                <rect key="frame" x="5" y="56" width="81" height="100"/>
+                                <state key="normal" title="scrollLeft1" image="arrow_left.jpg">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="scrollLeftPress1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VCL-fV-a2j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaW-ja-FCK">
+                                <rect key="frame" x="322" y="56" width="87" height="100"/>
+                                <state key="normal" title="scrollRight1" image="arrow_right.jpg">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="scrollRightPress1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YRh-6B-a8Z"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M3S-Ck-Nab">
+                                <rect key="frame" x="97.666666666666686" y="206" width="220" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nXk-L3-yvm">
+                                <rect key="frame" x="97.666666666666686" y="356" width="220" height="100"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGQ-9c-zQO">
+                                <rect key="frame" x="322" y="206" width="87" height="100"/>
+                                <state key="normal" title="scrollRight2" image="arrow_right.jpg">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="scrollRightPress2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RlT-gi-VAt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qjc-qL-B3b">
+                                <rect key="frame" x="5" y="206" width="81" height="100"/>
+                                <state key="normal" title="scrollLeft2" image="arrow_left.jpg">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="scrollLeftPress2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iCq-9t-dOU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMT-Vz-eFf">
+                                <rect key="frame" x="5" y="356" width="81" height="100"/>
+                                <state key="normal" title="scrollLeft3" image="arrow_left.jpg">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="scrollLeftPress3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bZU-tv-p5m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iF6-SM-kZy">
+                                <rect key="frame" x="322" y="356" width="87" height="100"/>
+                                <state key="normal" title="scrollRight3" image="arrow_right.jpg">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="scrollRightPress3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PD7-El-X67"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Og5-8d-vRh">
+                                <rect key="frame" x="97" y="56" width="220" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="EJ9-mc-OxK"/>
+                                    <constraint firstAttribute="height" constant="100" id="n9m-Pl-tvK"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="M3S-Ck-Nab" firstAttribute="top" secondItem="Og5-8d-vRh" secondAttribute="bottom" constant="50" id="2NN-qK-ZWI"/>
+                            <constraint firstItem="yXb-1x-fkn" firstAttribute="centerY" secondItem="Og5-8d-vRh" secondAttribute="centerY" id="3nl-M3-1EW"/>
+                            <constraint firstItem="M3S-Ck-Nab" firstAttribute="centerX" secondItem="Og5-8d-vRh" secondAttribute="centerX" id="3pS-eA-ZOz"/>
+                            <constraint firstItem="nXk-L3-yvm" firstAttribute="width" secondItem="M3S-Ck-Nab" secondAttribute="width" id="4BX-TR-nlL"/>
+                            <constraint firstItem="oaW-ja-FCK" firstAttribute="centerY" secondItem="Og5-8d-vRh" secondAttribute="centerY" id="4O7-Af-joF"/>
+                            <constraint firstItem="CMT-Vz-eFf" firstAttribute="centerX" secondItem="Qjc-qL-B3b" secondAttribute="centerX" id="5d7-Yj-xOE"/>
+                            <constraint firstItem="CMT-Vz-eFf" firstAttribute="height" secondItem="nXk-L3-yvm" secondAttribute="height" id="GiY-YR-o1T"/>
+                            <constraint firstItem="oaW-ja-FCK" firstAttribute="height" secondItem="Og5-8d-vRh" secondAttribute="height" id="IPN-oz-p1A"/>
+                            <constraint firstItem="Qjc-qL-B3b" firstAttribute="centerX" secondItem="yXb-1x-fkn" secondAttribute="centerX" id="JRz-Uq-o81"/>
+                            <constraint firstItem="iF6-SM-kZy" firstAttribute="height" secondItem="nXk-L3-yvm" secondAttribute="height" id="LUq-yf-eUt"/>
+                            <constraint firstItem="CMT-Vz-eFf" firstAttribute="width" secondItem="Qjc-qL-B3b" secondAttribute="width" id="MWE-So-fK5"/>
+                            <constraint firstItem="Qjc-qL-B3b" firstAttribute="width" secondItem="yXb-1x-fkn" secondAttribute="width" id="ONc-Td-dqD"/>
+                            <constraint firstItem="dGQ-9c-zQO" firstAttribute="width" secondItem="oaW-ja-FCK" secondAttribute="width" id="P7A-oI-Srb"/>
+                            <constraint firstItem="iF6-SM-kZy" firstAttribute="centerX" secondItem="dGQ-9c-zQO" secondAttribute="centerX" id="VDV-2Q-n79"/>
+                            <constraint firstItem="Og5-8d-vRh" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="X9Z-kF-FgM"/>
+                            <constraint firstItem="dGQ-9c-zQO" firstAttribute="centerX" secondItem="oaW-ja-FCK" secondAttribute="centerX" id="Yn6-eC-nco"/>
+                            <constraint firstItem="yXb-1x-fkn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="5" id="bhJ-BP-afp"/>
+                            <constraint firstItem="nXk-L3-yvm" firstAttribute="centerX" secondItem="M3S-Ck-Nab" secondAttribute="centerX" id="d5U-M3-L9c"/>
+                            <constraint firstAttribute="trailing" secondItem="oaW-ja-FCK" secondAttribute="trailing" constant="5" id="d7C-Gd-a5P"/>
+                            <constraint firstItem="CMT-Vz-eFf" firstAttribute="centerY" secondItem="nXk-L3-yvm" secondAttribute="centerY" id="f9R-1W-5AC"/>
+                            <constraint firstItem="Qjc-qL-B3b" firstAttribute="height" secondItem="M3S-Ck-Nab" secondAttribute="height" id="gGA-m7-UAh"/>
+                            <constraint firstItem="yXb-1x-fkn" firstAttribute="height" secondItem="Og5-8d-vRh" secondAttribute="height" id="gdQ-Jb-i95"/>
+                            <constraint firstItem="oaW-ja-FCK" firstAttribute="leading" secondItem="Og5-8d-vRh" secondAttribute="trailing" constant="5" id="hSU-kL-dBp"/>
+                            <constraint firstItem="M3S-Ck-Nab" firstAttribute="width" secondItem="Og5-8d-vRh" secondAttribute="width" id="hbg-uu-Mud"/>
+                            <constraint firstItem="dGQ-9c-zQO" firstAttribute="centerY" secondItem="M3S-Ck-Nab" secondAttribute="centerY" id="iiN-jv-xwz"/>
+                            <constraint firstItem="Og5-8d-vRh" firstAttribute="leading" secondItem="yXb-1x-fkn" secondAttribute="trailing" constant="11.5" id="jWo-Py-aAF"/>
+                            <constraint firstItem="nXk-L3-yvm" firstAttribute="top" secondItem="M3S-Ck-Nab" secondAttribute="bottom" constant="50" id="lpC-c5-8qz"/>
+                            <constraint firstItem="Qjc-qL-B3b" firstAttribute="centerY" secondItem="M3S-Ck-Nab" secondAttribute="centerY" id="qyZ-kp-j78"/>
+                            <constraint firstItem="iF6-SM-kZy" firstAttribute="centerY" secondItem="nXk-L3-yvm" secondAttribute="centerY" id="rJ0-Rf-as3"/>
+                            <constraint firstItem="Og5-8d-vRh" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="36" id="rgs-fc-jVK"/>
+                            <constraint firstItem="dGQ-9c-zQO" firstAttribute="height" secondItem="M3S-Ck-Nab" secondAttribute="height" id="sK8-u7-stO"/>
+                            <constraint firstItem="iF6-SM-kZy" firstAttribute="width" secondItem="dGQ-9c-zQO" secondAttribute="width" id="x77-zd-hFt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="eyesImage" destination="Og5-8d-vRh" id="KDz-GJ-Pxy"/>
+                        <outlet property="mouthImage" destination="nXk-L3-yvm" id="UGd-GR-HUd"/>
+                        <outlet property="noseImage" destination="M3S-Ck-Nab" id="mEx-eD-9Mr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63.5" y="35.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow_left.jpg" width="50" height="100"/>
+        <image name="arrow_right.jpg" width="50" height="100"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina5_5.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
